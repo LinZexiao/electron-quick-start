@@ -4,3 +4,7 @@
 // `nodeIntegration` is turned off. Use `preload.js` to
 // selectively enable features needed in the rendering
 // process.
+
+function myFunction() {
+    document.getElementById("demo").innerHTML = "段落被更改。";
+}
